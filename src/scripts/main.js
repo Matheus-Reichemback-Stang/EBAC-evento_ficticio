@@ -1,1 +1,1 @@
-console.log('Ola amigo')
+AOS.init()
