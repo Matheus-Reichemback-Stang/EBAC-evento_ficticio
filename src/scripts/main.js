@@ -1,10 +1,7 @@
 AOS.init()
 
-// Deixando sempre o timer atualizado após o termino dele
-const anoAtual = new Date();
-
 // É possível definir uma data do futuro ou do passado
-const dataDoEvento = new Date(`Dec 12, ${anoAtual} 19:00:00`);
+const dataDoEvento = new Date("Dec 12, 2024 19:00:00");
 // Com o getTime() é recuperado o TimeStamp
 const timeStampDoEvento = dataDoEvento.getTime();
 
